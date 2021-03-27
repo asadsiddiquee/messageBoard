@@ -1,0 +1,43 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(118, 64, 168);
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.msgBoard {
+    text-align: center;
+    padding: 2rem;
+    color: white;
+}
+
+#msgBox {
+    padding: 0.5rem;
+    /* margin-left: 25px ; */
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    margin-right: 15px;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#btn {
+    border-style: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    outline: none;
+    font-weight: bold;
+}
+
+#displayMsg {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
